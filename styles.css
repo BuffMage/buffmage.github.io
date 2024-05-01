@@ -28,7 +28,7 @@ body, html {
 }
 
 .progress {
-    width: 5%; /* adjust initial progress */
+    width: 1%; /* adjust initial progress */
     height: 100%;
     background-color: yellow; /* adjust color as needed */
     border-radius: 10px; /* half of height */
