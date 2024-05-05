@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.banana-text {
+    color: yellow;
+}
+
+.loading-bar {
+    width: 50%; /* adjust width as needed */
+    height: 20px; /* adjust height as needed */
+    background-color: #333;
+    border-radius: 10px; /* half of height */
+    overflow: hidden;
+    margin: 20px auto; /* adjust margin as needed */
+}
+
+.progress {
+    width: 1%; /* adjust initial progress */
+    height: 100%;
+    background-color: yellow; /* adjust color as needed */
+    border-radius: 10px; /* half of height */
+    border-color: black;
+    transition: width 1s ease; /* adjust animation duration as needed */
+}
