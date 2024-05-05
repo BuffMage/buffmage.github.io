@@ -1,24 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+        <h1>Simulating Bananas...<span className="banana-text">1%</span></h1>
+        <div className="loading-bar">
+            <div className="progress"></div>
+        </div>
+        <img width="25%" src="./spinning_banana.gif" alt='A gif of a spinning wireframe banana.'/>
     </div>
   );
 }
