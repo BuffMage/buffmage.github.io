@@ -1,0 +1,13 @@
+{
+  "short_name": "Banana Simulator",
+  "name": "Banana Simulator",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
