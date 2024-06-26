@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Button, ChakraBaseProvider, ColorModeScript, DarkMode, extendBaseTheme } from '@chakra-ui/react';
+import { Button, ChakraBaseProvider, ColorModeContext, ColorModeProvider, ColorModeScript, DarkMode, extendBaseTheme } from '@chakra-ui/react';
 
 /* const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -24,10 +24,11 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <>
-    <ColorModeScript initialColorMode='dark'/>
+    <ColorModeProvider>
     <React.StrictMode>
         <App />
     </React.StrictMode>
+    </ColorModeProvider>
   </>
 );
 

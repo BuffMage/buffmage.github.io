@@ -1,5 +1,5 @@
 import './App.css';
-import { Box, ChakraProvider, DarkMode, Flex, Image, Link, Stack, extendTheme } from '@chakra-ui/react';
+import { Box, ChakraProvider, DarkMode, Flex, Image, Link, Stack, extendTheme, useColorMode } from '@chakra-ui/react';
 import Simple from './Navbar';
 import {theme} from "./theme"
 
@@ -14,6 +14,9 @@ import {theme} from "./theme"
 }) */
 
 function App() {
+  const { colorMode, toggleColorMode } = useColorMode()
+  if (colorMode === "light") toggleColorMode();
+
   return (
     <ChakraProvider theme={theme}>
       <Box>
