@@ -40,16 +40,8 @@ export default function Simple() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.900', 'gray.900')} px={4}>
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <IconButton
-            size={'md'}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={'Open Menu'}
-            display={{ md: 'none' }}
-            onClick={isOpen ? onClose : onOpen}
-          />
-          <HStack spacing={8} alignItems={'center'}>
+      <Box bg={useColorModeValue('gray.00', 'gray.900')} px={4}>
+      <HStack spacing={8} alignItems={'center'}>
             {/* <Box>Logo</Box> */}
             <Image src="./client_icon_image.png" alt="Banana Simulator Icon" height={"50px"}/>
             <Image src="./banana_simulator_logo.png" alt="Banana Simulator Logo" height={"50px"}/>
@@ -62,6 +54,14 @@ export default function Simple() {
               ))}
             </HStack> */}
           </HStack>
+        {/* <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+          <IconButton
+            size={'md'}
+            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            aria-label={'Open Menu'}
+            display={{ md: 'none' }}
+            onClick={isOpen ? onClose : onOpen}
+          /> */}
           {/* <Flex alignItems={'center'}>
             <Menu>
               <MenuButton
@@ -85,7 +85,7 @@ export default function Simple() {
               </MenuList>
             </Menu>
           </Flex> */}
-        </Flex>
+        {/* </Flex> */}
 
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
