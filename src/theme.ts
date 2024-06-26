@@ -4,7 +4,9 @@ import type { StyleFunctionProps } from "@chakra-ui/styled-system";
 import { mode } from "@chakra-ui/theme-tools";
 
 export const theme = extendTheme({
-  config: {},
+  config: {
+    useSystemColorMode: false,
+    initialColorMode: "dark"},
   styles: {
     global: (props: StyleFunctionProps) => ({
       body: {

@@ -1,5 +1,5 @@
 import './App.css';
-import { Box, ChakraProvider, Flex, Image, Link, Stack, extendTheme } from '@chakra-ui/react';
+import { Box, ChakraProvider, DarkMode, Flex, Image, Link, Stack, extendTheme } from '@chakra-ui/react';
 import Simple from './Navbar';
 import {theme} from "./theme"
 
@@ -19,6 +19,7 @@ function App() {
       <Box>
         <Simple />
         {/* <Flex alignItems={"center"} textAlign={"center"} justifyContent={"center"}>   */}
+        <DarkMode>
         <Stack alignItems={"center"}>
           <Box>This is the website for the upcoming game <b>Banana Simulator</b> that is currently in development! This website is also still under construction.</Box>
           <Box>Below you will find the first trailer for the game, enjoy! Join our official Discord channel <b><Link href='https://discord.gg/6CMfXWaJTJ' isExternal>here</Link></b> to stay up to date and contribute to the game!</Box>
@@ -31,6 +32,7 @@ function App() {
             </div>
             <Box fontSize={"small"}><i>This is a loading bar for approximately how much of the game I have complete, please don't wait for the website to load it :)</i></Box>
         </Stack>
+        </DarkMode>
       </Box>
     </ChakraProvider>
   );
