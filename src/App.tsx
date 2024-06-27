@@ -31,7 +31,7 @@ function App() {
           <Box paddingTop={5} fontSize={"x-large"}><b>Banana Simulator Trailer 1</b></Box>
         
         <div className="video-container">
-        <iframe className='trailer' title="Banana Simulator Trailer 1" src="https://drive.google.com/file/d/1S3Vtft759zC3db0_a0wo9i6Kk6A_kh_9/preview" allow="autoplay"></iframe>
+        <iframe className='trailer' width="560" height="315" src="https://www.youtube.com/embed/R9wWrffgVp4?si=9Kz8Vq-966bZyHfr" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
             <Image w={"12.5%"} src='./spinning_banana.gif' alt='A gif of a spinning wireframe banana.' alignItems={"center"} justifyContent={"center"}></Image>
             <Box paddingTop={5} fontSize={"xx-large"}>Simulating Bananas...<span className="banana-text">10%</span></Box>
