@@ -25,7 +25,9 @@ function App() {
         <DarkMode>
         <Stack alignItems={"center"}>
           <Box>This is the website for the upcoming game <b>Banana Simulator</b> that is currently in development! This website is also still under construction.</Box>
-          <Box>Below you will find the first trailer for the game, enjoy! Join our official Discord channel <b><Link href='https://discord.gg/6CMfXWaJTJ' isExternal>here</Link></b> to stay up to date and contribute to the game!</Box>
+          <Box>Below you will find the first trailer for the game, enjoy!</Box>
+          <Box>Join the official Discord channel <b><Link href='https://discord.gg/6CMfXWaJTJ' isExternal>here</Link></b> to stay up to date and contribute to the game!</Box>
+          <Box>Wishlist the game on Steam <b><Link href='https://store.steampowered.com/app/3059660/Banana_Simulator/' isExternal>here!</Link></b></Box>
           <Box paddingTop={5} fontSize={"x-large"}><b>Banana Simulator Trailer 1</b></Box>
         
         <div className="video-container">
@@ -36,7 +38,7 @@ function App() {
             <div className="loading-bar">
                 <div className="progress"></div>
             </div>
-            <Box fontSize={"small"}><i>This is a loading bar for approximately how much of the game I have complete, please don't wait for the website to load it :)</i></Box>
+            <Box fontSize={"small"}><i>This is a loading bar that's pretty much just a countdown till release, which is around late October, please don't wait for the website to load it :)</i></Box>
         </Stack>
         </DarkMode>
       </Box>
