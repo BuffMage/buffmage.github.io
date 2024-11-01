@@ -38,7 +38,8 @@ function App() {
             <div className="loading-bar">
                 <div className="progress"></div>
             </div>
-            <Box fontSize={"small"}><i>This is a loading bar that's pretty much just a countdown till release, which is around late October, please don't wait for the website to load it :)</i></Box>
+            <Box fontSize={"small"}><i>This is a loading bar that's pretty much just a countdown till release, which is AT SOME TIME IN THE NEAR FUTURE™, please don't wait for the website to load it :)</i></Box>
+            <Box fontSize={"small"}><i>Why did the release date change? In short, I'm finishing up college, working with some friends on a game together, and dealing with life stuff :) THE GAME WILL BE DONE (hopefully by early 2025). In the meantime, check out the <Link style={{color:"yellow"}} href={"https://store.steampowered.com/app/3269860/Locomotive_115/"}>game</Link> me and my friends are making!</i></Box>
         </Stack>
         </DarkMode>
       </Box>
